@@ -1,0 +1,77 @@
+/* GENERAL */
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #faf3f3;
+    font-family: "Oleo Script Swash Caps", cursive;
+}
+
+h1,
+h2 {
+    color: #da7f8f;
+}
+
+p,
+h3 {
+    color: #f5c0c0;
+}
+
+span {
+    font-size: 1.25rem;
+    margin-right: 5px;
+}
+
+/* MAIN SECTION */
+.container {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.header {
+    line-height: 2;
+}
+
+/* BOTTOM SECTION */
+.bottom-container {
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.upper-bottom {
+    margin-top: 15px;
+}
+
+.header-bottom h3,
+.header-bottom p {
+    display: inline-block;
+}
+
+.attendance a i {
+    font-size: 2rem;
+    color: #9fd8df;
+}
+
+.fa-thumbs-up {
+    margin-right: 20px;
+}
+
+.fa-thumbs-down {
+    margin-left: 20px;
+}
+
+.attendance p {
+    margin-bottom: 40px;
+}
